@@ -5,7 +5,14 @@ public class Giraffe extends Animal {
         super(food, nocturnal, aveLifeSpan);
         System.out.println("A giraffe arrives.");
     }
-
+    public void hum() {
+        System.out.println("The giraffe hums");
+    }
+    
+    @Override
+    public void speak() {
+        hum();
+    }
     // Override eat method to provide specific behavior
     @Override
     public void eat() {
