@@ -9,6 +9,10 @@ public class Animal {
         System.out.println("An animal arrives.");
     }
 
+    public void speak() {
+        System.out.println("Animal makes a sound");
+    }
+
     // Parameterized constructor
     public Animal(String food, boolean nocturnal, double aveLifeSpan) {
         this.food = food;
